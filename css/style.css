@@ -1,0 +1,42 @@
+
+
+#output {
+	background-color: gray;
+	height: 50px;
+	width: 300px;
+}
+
+
+#num-pad {
+	display: inline-block;
+	width: 200px;
+	height: 300px;
+	margin: 0px;
+	text-align: center;
+}
+.digit-button {
+	width: 50px;
+	height: 50px;
+	margin: 2px;
+	padding: 0px;
+}
+
+#func-pad {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	width: 100px;
+}
+
+.math-symbol {
+	width: 40px;
+	height: 40px;
+	margin: 7px 0px;
+	border-radius: 50%;
+}
+
+.input-button {
+	height: 50px;
+	width: 100px;
+	margin: 2px 0px;
+}
