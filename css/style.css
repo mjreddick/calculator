@@ -1,16 +1,33 @@
 
 
+main{
+	margin: 10px auto;
+	width: 276px;
+	background-color: black;
+	height: 266px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+button:focus {
+	outline:0;
+}
+
 #output {
+	display: block;
 	background-color: gray;
 	height: 50px;
-	width: 300px;
+	width: 275;
+	text-align: right;
+	margin: 0px 0px 2px 0px;
+	font-size: 45px;
+	overflow: auto;
 }
 
 
 #num-pad {
 	display: inline-block;
-	width: 200px;
-	height: 300px;
+	width: 171px;
 	margin: 0px;
 	text-align: center;
 }
@@ -19,6 +36,12 @@
 	height: 50px;
 	margin: 2px;
 	padding: 0px;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.digit-button:nth-child(3n-2) {
+	margin-left: 0px;
 }
 
 #func-pad {
@@ -39,4 +62,9 @@
 	height: 50px;
 	width: 100px;
 	margin: 2px 0px;
+}
+
+#clear {
+	background-color: #E64040;
+	border-color: #CC3737;
 }
